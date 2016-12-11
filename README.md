@@ -1,25 +1,4 @@
-# brand
-
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.15.1.
-
-## Build & development
-
-Run `grunt` for building and `grunt serve` for preview.
-
-## Testing
-
-Running `grunt test` will run the unit tests with karma.
-=======
 # Problem Solution Fit Canvas
-## Why Problem-Solution  fit canvas?
- - Solve complex problems in a way that  fits the state of your customers.
- - Succeed faster and increase your solution adoption by tapping into existing mediums and customer behavior.
- - Sharpen your communication and marketing strategy with the right triggers and messaging.
- - Increase touchpoints with your company by  finding the right problem-behavior  fit and build trust, solving frequent annoyances or urgent / costly problems.
- - Based on Lean Startup, Design Thinking, Lazy User Model (LUM) principles and fundamentals of User Experience design.
- - Understand existing situation to design for improvement.
-
 
 # INSTRUCTIONS:
 1. Fill in according to the order 1-10 for and 10, 1-9 for existing solutions.
