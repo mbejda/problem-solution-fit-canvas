@@ -1,0 +1,32 @@
+<div class="row">
+<div class="col-md-12">
+  <a class="pull-right btn btn-xs btn-primary" ng-click="addContent(i,canvas.contentType)">Add</a>
+
+</div>
+</div>
+
+<p ng-if="canvas.content.length == 0" ng-bind-html="placeholder">
+</p>
+
+<ul ng-if="canvas.content.length > 0">
+  <li ng-repeat="content in canvas.content" class="row" ng-init="show=false" ng-mouseover="show=true"  ng-mouseleave="show=false">
+
+    <div class="col-md-8" ng-class="{'col-md-12':content.frequency === undefined}">
+
+
+      <input class="w100" ng-class="style" type="text" ng-model="content.text">
+    </div>
+    <div class="col-md-4" ng-show="content.frequency != undefined">
+      <input class="w100" ng-class="style" type="text" ng-model="content.frequency">
+    </div>
+
+
+<a href="javascript:void();" ng-show="show" class="rm-btn btn-xs btn-primary" ng-click="removeContent(canvas,$index)">
+
+  <i class="fa fa-times" aria-hidden="true"></i>
+
+</a>
+
+
+  </li>
+</ul>

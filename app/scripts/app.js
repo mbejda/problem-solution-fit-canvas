@@ -1,0 +1,29 @@
+'use strict';
+
+/**
+ * @ngdoc overview
+ * @name Canvas
+ * @description
+ * # Canvas
+ *
+ * Main module of the application.
+ */
+angular
+  .module('canvas', [
+    'ngCookies',
+    'ngResource',
+    'ngRoute',
+    'ngSanitize',
+    'ngTouch'
+  ])
+  .config(function ($routeProvider) {
+    $routeProvider
+      .when('/', {
+        templateUrl: 'views/main.html',
+        controller: 'MainCtrl',
+        controllerAs: 'main'
+      })
+      .otherwise({
+        redirectTo: '/'
+      });
+  });
