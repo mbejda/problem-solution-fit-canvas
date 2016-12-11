@@ -1,0 +1,12 @@
+<div uib-collapse="!show">
+    <div class="page-alert alert-{{api.status}} " ng-show="show">
+        <div class="page-alert-container clearfix">
+            <span class="page-alert-icon"><i class="glyphicon glyphicon-{{api.icon}}"></i></span>
+            <div class="page-alert-msg">
+                {{api.message}}
+            </div>
+
+            <a class="page-alert-close text-{{api.status}}"><i class="glyphicon glyphicon-remove-circle" ng-click="hide()"></i></a>
+        </div>
+    </div>
+</div>

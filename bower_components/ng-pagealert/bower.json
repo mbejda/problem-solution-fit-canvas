@@ -1,0 +1,32 @@
+{
+  "name": "ng-pagealert",
+  "description": "Angularjs Full Width Animated Alert Box",
+  "main": "/dist/ng-pagealert.js",
+  "authors": [
+    "Alvaro Saburido"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angularjs",
+    "alert",
+    "animated"
+  ],
+  "dependencies": {
+    "angular": ">=1.0.8",
+    "bootstrap": "^3.3.6",
+    "angular-bootstrap": "~0.14.3"
+  },
+  "homepage": "https://github.com/alvarosaburido/ng-pagealert",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "sass-mixins": "^0.12.0",
+    "angular-bootstrap": "^1.2.5"
+  }
+}
