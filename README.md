@@ -35,6 +35,9 @@ Some problems are too costly but they may be nothing in comparison with daily an
  
  
    
+<hr>   
+### Copy Right Information
+Problem-Solution  fit canvas is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. Designed by Daria Nepriakhina / IdeaHackers.nl
    
    
    
