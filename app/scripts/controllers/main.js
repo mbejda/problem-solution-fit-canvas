@@ -1,12 +1,3 @@
-'use strict';
-
-/**
- * @ngdoc function
- * @name brandApp.controller:MainCtrl
- * @description
- * # MainCtrl
- * Controller of the brandApp
- */
 angular.module('canvas')
   .controller('MainCtrl', function ($scope,$timeout) {
 

@@ -19,7 +19,7 @@
     "angular-mocks": "^1.4.0"
   },
   "appPath": "app",
-  "moduleName": "brandApp",
+  "moduleName": "canvas",
   "overrides": {
     "bootstrap": {
       "main": [
